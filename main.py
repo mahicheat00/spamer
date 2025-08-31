@@ -69,13 +69,12 @@ async def send_channel_message(bot_token, channel_id, message, count):
 async def main():
     while True:
         print(Colorate.Horizontal(Colors.green_to_cyan,(r"""   
-                    ███╗░░░███╗░█████╗░██╗░░██╗██╗
-                    ████╗░████║██╔══██╗██║░██╔╝██║
-                    ██╔████╔██║███████║█████═╝░██║
-                    ██║╚██╔╝██║██╔══██║██╔═██╗░██║
-                    ██║░╚═╝░██║██║░░██║██║░╚██╗██║
-                    ╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝
-
+                    ██████╗░░█████╗░███████╗██╗ 
+                    ██╔══██╗██╔══██╗██╔════╝██║
+                    ██████╔╝███████║█████╗░░██║
+                    ██╔══██╗██╔══██║██╔══╝░░██║
+                    ██║░░██║██║░░██║██║░░░░░██║
+                    ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝
                                               """)))
         print()
         choice = input(Colorate.Horizontal(Colors.green_to_cyan,(" [$] U,C>> ")))
@@ -107,7 +106,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
 
 
 
